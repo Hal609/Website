@@ -1,0 +1,145 @@
+
+*{
+  margin:0;
+  padding:0;
+  line-height: 2em
+}
+
+
+body{
+  /*background-color:#f4f4f4; */
+  background-color: white;
+  color:#555;
+  font: normal 17px Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin:0;
+}
+
+
+.header{
+  padding:100px;
+  background-image:url(../images/header.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  position:relative;
+}
+
+a#header{
+  padding:65px 160px;
+  background-image:url('../images/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: 320px 127px;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, -63px);
+}
+
+
+a{
+  text-decoration: none;
+  color: #098b14;
+}
+
+.menu{
+  padding-top: 165px;
+  color: #098b14;
+  list-style: none;
+  text-align: center;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 14px;
+  width: 100%;
+
+}
+
+.menu li{
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding: 0px 16px;
+  display: inline;
+  float: none;
+
+}
+
+p{
+
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.globtitle{
+  text-align: center;
+  font-size: 24px;
+  font-variant-caps: all-small-caps;
+  position: relative;
+  top: 125px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.main{
+  width:67%;
+  margin: auto;
+  font: normal 14px Georgia, Times, Serif;
+  line-height: 2em;
+}
+
+.face{
+  padding-top: 450px;
+  margin-top: 50px;
+  margin-left: 35px;
+  background-image:url('../images/face.jpg');
+  background-repeat: no-repeat;
+  float: right;
+  width: 350px;
+  background-size: 75%;
+}
+
+li{
+  margin-left: 30px
+}
+
+.start{
+  font-weight: bold;
+}
+
+
+.line{
+  background-position: center;
+  border-bottom-style: solid;
+  border-width: thin;
+  width: 67%;
+  padding-top: 0px;
+  border-color: #bbb;
+  margin: 1em auto;
+}
+
+hr{
+  display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid red;
+   margin: 1em auto;
+   padding: 0;
+}
+
+.box-1{
+  background-color: #333;
+  color:#ddd;
+  border: 2px;
+  border-radius: 20px;
+  border-style: dashed;
+
+  padding:20px;
+
+  margin: 20px 0;
+}
+
+.box-1 h1{
+  font: 800 20px Tahoma;
+  letter-spacing: 1px;
+}
