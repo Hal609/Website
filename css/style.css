@@ -26,9 +26,9 @@ body{
 
 a#header{
   padding:65px 160px;
-  background-image:url('../images/logo.png');
+  background-image:url('../images/HK.png');
   background-repeat: no-repeat;
-  background-size: 320px 127px;
+  background-size: 132px 132px;
   position: absolute;
   left:50%;
   transform: translate(-50%, -63px);
@@ -92,7 +92,7 @@ p{
   padding-top: 450px;
   margin-top: 50px;
   margin-left: 35px;
-  background-image:url('../images/face.jpg');
+  background-image:url('../images/LeaderKolb2.jpg');
   background-repeat: no-repeat;
   float: right;
   width: 350px;
